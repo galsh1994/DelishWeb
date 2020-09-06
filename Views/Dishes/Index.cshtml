@@ -1,0 +1,162 @@
+﻿@model IEnumerable<delishapplication.Models.Dish>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+<style>
+    body {
+        margin: 10px;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .outer-grid {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 4px;
+    }
+
+    .container {
+        position: relative;
+    }
+
+    .inner-grid {
+        flex: 25%;
+        max-width: 25%;
+        padding: 0 4px;
+    }
+
+    .text-block {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        background-color: white;
+        opacity: 0.8;
+        color: black;
+        font-size: 12px;
+        padding-left: 10px;
+        padding-right: 5px;
+        /*font-family: "Courier New", Courier, monospace;*/
+    }
+
+    .inner-grid img {
+        margin-top: 8px;
+        width: 100%;
+        padding: 10px;
+    }
+</style>
+
+<body>
+
+    <div class="outer-grid">
+        @{
+            var dishes = ViewBag.AllTheDishes;
+            foreach (var dish in dishes)
+            {
+                <div class="inner-grid">
+                    <div class="container">
+                        <img src='@dish.PhotoLink' />
+
+                        <div class="text-block">
+                            <h6 style="text-align:center">@dish.DishName</h6>
+                            <a asp-action="Details" asp-route-id="@dish.DishID">Details</a>
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+    </div>
+
+
+    <br>
+    <h3>Search a Dish by feature</h3>
+    <br>
+    <h4>Please fill all the features </h4>
+    <form asp-action="SearchByFeature">
+
+
+        <a class="form-group" style="margin:auto;max-width:400px">
+            <a class="control-label" </a>
+            <input type="text" placeholder="Search by name:" name="DishName">
+        </a>
+        <a class="form-group" style="margin:auto;max-width:400px">
+            <a class="control-label" </a>
+            <input type="text" placeholder="Kosher=1, Non-Kosher=0:" name="Kosher">
+        </a>
+        <a class="form-group" style="margin:auto;max-width:400px">
+            <a class="control-label" </a>
+            <input type="text" placeholder="Price limit:" name="Price">
+        </a>
+        <br>
+        <div class="form-group">
+            <input type="submit" value="Search" style="border:thin;border-color:black; background-color:darksalmon; color:white" class="control-label" />
+        </div>
+    </form>
+
+    @{
+        var curr = User as System.Security.Claims.ClaimsPrincipal;
+        string hisType = curr.Identities.First().Claims.ElementAt(3).Value;
+    }
+
+    @if (hisType == "Admin")
+    {
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.DishName)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Price)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Spicy)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Vegan)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Description)
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.DishName)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Price)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Spicy)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Vegan)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Description)
+                        </td>
+                        <td>
+                            <a asp-action="Edit" asp-route-id="@item.DishID">Edit</a> |
+                            <a asp-action="Details" asp-route-id="@item.DishID">Details</a> |
+                            <a asp-action="Delete" asp-route-id="@item.DishID">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+</body>
+

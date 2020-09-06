@@ -1,0 +1,168 @@
+﻿@{
+
+}
+<h2>@ViewData["Title"]</h2>
+<h3>@ViewData["Message"]</h3>
+
+
+<style>
+    h1 {
+        text-shadow: 0 0 3px #808080
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        margin: 10px;
+    }
+
+    aside {
+        width: 30%;
+        padding-left: 15px;
+        margin-left: 15px;
+        float: right;
+        font-style: italic;
+        background-color: #f8d1c2;
+        border: 2px solid #f8d1c2;
+        border-radius: 25px;
+    }
+
+    .newsPapaer {
+        column-count: 1;
+        column-gap: 60px;
+    }
+</style>
+
+<title>Font Awesome Icons</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<body>
+
+    <center>
+        <h1> About us </h1>
+        <br>
+    </center>
+    <h3>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspOur Location </h3>
+    <center>
+        <div class="newsPapaer">
+            <style>
+                /* Set the size of the div element that contains the map */
+                #map {
+                    height: 200px; /* The height is 400 pixels */
+                    width: 50%; /* The width is the width of the web page */
+                }
+            </style>
+
+
+            <aside>
+                <h3>Our Branches:</h3>
+                <p>Herzeliya Branch: Costumer's Service </p>
+                <p>Tel Aviv Branch: Tech Support </p>
+                <p>Rehovot Branch: Head Quarters </p>
+
+             
+                    @{
+                                            var curr = User as System.Security.Claims.ClaimsPrincipal;
+                                            string hisType = curr.Identities.First().Claims.ElementAt(3).Value;
+           
+                    }
+                    @if (hisType == "Admin")
+                        {
+                          <button style="width:250px; background-color:darksalmon; color:white" onclick="window.location.href= '@Url.Action("Index", "Branches")';">Branches Information</button>
+                        }
+              </aside>
+        <!--The div element for the map -->
+                    <div id="map"></div>
+
+                    <script>
+            // Initialize and add the map
+            function initMap() {
+                // The location of Uluru
+                var uluru = { lat: 31.896923, lng: 35.011812 };
+                var firstBranch = { lat: @ViewBag.firstbranchlat, lng: @ViewBag.firstbranchlong}
+                var secondBranch = { lat: @ViewBag.secondbranchlat, lng: @ViewBag.secondbranchlong}
+                var thirdBranch = { lat: @ViewBag.thirdbranchlat, lng: @ViewBag.thirdbranchlong}
+
+                // The map, centered at Uluru
+                var map = new google.maps.Map(
+                    document.getElementById('map'), { zoom: 4, center: firstBranch });
+                // The marker, positioned at Uluru
+                var marker = new google.maps.Marker({ position: firstBranch, map: map });
+                var marker = new google.maps.Marker({ position: secondBranch, map: map });
+                var marker = new google.maps.Marker({ position: thirdBranch, map: map });
+
+
+            }
+                    </script>
+
+                    <!--Load the API from the specified URL
+        * The async attribute allows the browser to render the page while the API loads
+        * The key parameter will contain your own API key (which is not needed for this tutorial)
+        * The callback parameter executes the initMap() function
+        -->
+
+                    <script defer
+                            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD7uz1V2GfAk2uNXxMIJsWjHoLzzhuCk4I&callback=initMap">
+                    </script>
+</div>
+        <br>
+        <br>
+        <br>
+        <div>
+            <a>
+                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            </a>
+
+            <a class="twitter-share-button"
+               href="https://twitter.com/intent/tweet?text=%23WeLoveDelish"
+               data-size="large" style="width:250px">
+                Write a tweet about us! <i class="fa fa-twitter"></i>
+            </a>
+
+
+            <a class="twitter-timeline"
+               href="https://twitter.com/delish20467675"
+               data-width="300"
+               data-height="300" style="width:250px">
+                Tweets by us  <i class="fa fa-twitter"></i>
+            </a>
+            <br>
+            <br><br>
+            <br>
+            <h3>So why should you order from Delish?</h3>
+            <p>Well.. there is a pandemic outside </p>
+            <p>Eating inside is always safer.. </p>
+            <p>For further information check out the info below </p>
+        </div>
+        <iframe src="https://www.haaretz.co.il/health/EXT-INTERACTIVE-1.8632229" height="500" width="800" title="Haaretz news"></iframe>
+
+
+    </center>
+</body>
+
+<canvas id="myCanvas" width="1000" height="200"
+        style="border:1px solid #d3d3d3;">
+</canvas>
+<script>
+    var canvas = document.getElementById("myCanvas");
+    var ctx = canvas.getContext("2d");
+    ctx.font = "20px Comic Sans MS";
+    ctx.fillStyle = "browm";
+    ctx.textAlign = "center";
+    ctx.fillText("Connect Us : 03-5468923", canvas.width / 2, canvas.height / 2);
+</script>
+
+
+

@@ -1,0 +1,158 @@
+C:\Users\galsh\Source\Repos\korenshir\delish_application\delishapplication\obj\Debug\netcoreapp2.1\delishapplication.dll
+C:\Users\galsh\Source\Repos\korenshir\delish_application\delishapplication\obj\Debug\netcoreapp2.1\delishapplication.pdb
+C:\Users\koren\source\repos\delishapplication\delishapplication\bin\Debug\netcoreapp2.1\delishapplication.deps.json
+C:\Users\koren\source\repos\delishapplication\delishapplication\bin\Debug\netcoreapp2.1\delishapplication.runtimeconfig.json
+C:\Users\koren\source\repos\delishapplication\delishapplication\bin\Debug\netcoreapp2.1\delishapplication.runtimeconfig.dev.json
+C:\Users\koren\source\repos\delishapplication\delishapplication\bin\Debug\netcoreapp2.1\delishapplication.dll
+C:\Users\koren\source\repos\delishapplication\delishapplication\bin\Debug\netcoreapp2.1\delishapplication.pdb
+C:\Users\koren\source\repos\delishapplication\delishapplication\bin\Debug\netcoreapp2.1\delishapplication.Views.dll
+C:\Users\koren\source\repos\delishapplication\delishapplication\bin\Debug\netcoreapp2.1\delishapplication.Views.pdb
+C:\Users\koren\source\repos\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\delishapplication.csproj.CoreCompileInputs.cache
+C:\Users\koren\source\repos\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\delishapplication.RazorAssemblyInfo.cache
+C:\Users\koren\source\repos\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\delishapplication.RazorAssemblyInfo.cs
+C:\Users\koren\source\repos\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\delishapplication.AssemblyInfoInputs.cache
+C:\Users\koren\source\repos\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\delishapplication.AssemblyInfo.cs
+C:\Users\koren\source\repos\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\delishapplication.TagHelpers.input.cache
+C:\Users\koren\source\repos\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\delishapplication.TagHelpers.output.cache
+C:\Users\koren\source\repos\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\delishapplication.RazorCoreGenerate.cache
+C:\Users\koren\source\repos\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Chefs\Create.g.cshtml.cs
+C:\Users\koren\source\repos\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Chefs\Delete.g.cshtml.cs
+C:\Users\koren\source\repos\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Chefs\Details.g.cshtml.cs
+C:\Users\koren\source\repos\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Chefs\Edit.g.cshtml.cs
+C:\Users\koren\source\repos\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Chefs\Index.g.cshtml.cs
+C:\Users\koren\source\repos\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Chefs\Login.g.cshtml.cs
+C:\Users\koren\source\repos\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Chefs\Register.g.cshtml.cs
+C:\Users\koren\source\repos\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Clients\Create.g.cshtml.cs
+C:\Users\koren\source\repos\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Clients\Delete.g.cshtml.cs
+C:\Users\koren\source\repos\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Clients\Details.g.cshtml.cs
+C:\Users\koren\source\repos\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Clients\Edit.g.cshtml.cs
+C:\Users\koren\source\repos\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Clients\Index.g.cshtml.cs
+C:\Users\koren\source\repos\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Clients\Login.g.cshtml.cs
+C:\Users\koren\source\repos\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Clients\Register.g.cshtml.cs
+C:\Users\koren\source\repos\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Dishes\Create.g.cshtml.cs
+C:\Users\koren\source\repos\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Dishes\Delete.g.cshtml.cs
+C:\Users\koren\source\repos\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Dishes\Details.g.cshtml.cs
+C:\Users\koren\source\repos\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Dishes\Edit.g.cshtml.cs
+C:\Users\koren\source\repos\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Dishes\Index.g.cshtml.cs
+C:\Users\koren\source\repos\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\DishOrders\Create.g.cshtml.cs
+C:\Users\koren\source\repos\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\DishOrders\Delete.g.cshtml.cs
+C:\Users\koren\source\repos\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\DishOrders\Details.g.cshtml.cs
+C:\Users\koren\source\repos\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\DishOrders\Edit.g.cshtml.cs
+C:\Users\koren\source\repos\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\DishOrders\Index.g.cshtml.cs
+C:\Users\koren\source\repos\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+C:\Users\koren\source\repos\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Home\AboutUs.g.cshtml.cs
+C:\Users\koren\source\repos\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+C:\Users\koren\source\repos\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Home\FirstPage.g.cshtml.cs
+C:\Users\koren\source\repos\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\koren\source\repos\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
+C:\Users\koren\source\repos\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Orders\Create.g.cshtml.cs
+C:\Users\koren\source\repos\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Orders\CreateFromChef.g.cshtml.cs
+C:\Users\koren\source\repos\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Orders\Delete.g.cshtml.cs
+C:\Users\koren\source\repos\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Orders\Details.g.cshtml.cs
+C:\Users\koren\source\repos\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Orders\Edit.g.cshtml.cs
+C:\Users\koren\source\repos\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Orders\Index.g.cshtml.cs
+C:\Users\koren\source\repos\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\koren\source\repos\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\koren\source\repos\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\koren\source\repos\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Users_Layout.g.cshtml.cs
+C:\Users\koren\source\repos\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\koren\source\repos\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\koren\source\repos\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\koren\source\repos\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\delishapplication.RazorTargetAssemblyInfo.cache
+C:\Users\koren\source\repos\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\delishapplication.RazorTargetAssemblyInfo.cs
+C:\Users\koren\source\repos\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\delishapplication.Views.pdb
+C:\Users\koren\source\repos\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\delishapplication.dll
+C:\Users\koren\source\repos\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\delishapplication.pdb
+C:\Users\koren\source\repos\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\delishapplication.csproj.CopyComplete
+C:\Users\koren\source\repos\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Chefs\CreateAnOrder.g.cshtml.cs
+C:\Users\koren\source\repos\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Chefs\MyTable.g.cshtml.cs
+C:\Users\koren\source\repos\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Orders\orderHistory.g.cshtml.cs
+C:\Users\koren\source\repos\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Orders\copyOrder.g.cshtml.cs
+C:\Users\koren\source\repos\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Chefs\AddDishFromChef.g.cshtml.cs
+C:\Users\koren\source\repos\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Branches\Create.g.cshtml.cs
+C:\Users\koren\source\repos\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Branches\Delete.g.cshtml.cs
+C:\Users\koren\source\repos\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Branches\Details.g.cshtml.cs
+C:\Users\koren\source\repos\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Branches\Edit.g.cshtml.cs
+C:\Users\koren\source\repos\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Branches\Index.g.cshtml.cs
+C:\Users\koren\source\repos\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Home\DishGraph.g.cshtml.cs
+C:\Users\koren\source\repos\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Home\ChefGraph.g.cshtml.cs
+C:\Users\koren\source\repos\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\delishapplication.csprojAssemblyReference.cache
+C:\Users\koren\source\repos\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Orders\GroupByClient.g.cshtml.cs
+C:\Users\galsh\OneDrive\שולחן העבודה\גל\לימודים\שנה ב\סמסטר ב\אפליקציות\הגשה\delishapplication\delishapplication\bin\Debug\netcoreapp2.1\delishapplication.deps.json
+C:\Users\galsh\OneDrive\שולחן העבודה\גל\לימודים\שנה ב\סמסטר ב\אפליקציות\הגשה\delishapplication\delishapplication\bin\Debug\netcoreapp2.1\delishapplication.runtimeconfig.json
+C:\Users\galsh\OneDrive\שולחן העבודה\גל\לימודים\שנה ב\סמסטר ב\אפליקציות\הגשה\delishapplication\delishapplication\bin\Debug\netcoreapp2.1\delishapplication.runtimeconfig.dev.json
+C:\Users\galsh\OneDrive\שולחן העבודה\גל\לימודים\שנה ב\סמסטר ב\אפליקציות\הגשה\delishapplication\delishapplication\bin\Debug\netcoreapp2.1\delishapplication.dll
+C:\Users\galsh\OneDrive\שולחן העבודה\גל\לימודים\שנה ב\סמסטר ב\אפליקציות\הגשה\delishapplication\delishapplication\bin\Debug\netcoreapp2.1\delishapplication.pdb
+C:\Users\galsh\OneDrive\שולחן העבודה\גל\לימודים\שנה ב\סמסטר ב\אפליקציות\הגשה\delishapplication\delishapplication\bin\Debug\netcoreapp2.1\delishapplication.Views.dll
+C:\Users\galsh\OneDrive\שולחן העבודה\גל\לימודים\שנה ב\סמסטר ב\אפליקציות\הגשה\delishapplication\delishapplication\bin\Debug\netcoreapp2.1\delishapplication.Views.pdb
+C:\Users\galsh\OneDrive\שולחן העבודה\גל\לימודים\שנה ב\סמסטר ב\אפליקציות\הגשה\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\delishapplication.csprojAssemblyReference.cache
+C:\Users\galsh\OneDrive\שולחן העבודה\גל\לימודים\שנה ב\סמסטר ב\אפליקציות\הגשה\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\delishapplication.csproj.CoreCompileInputs.cache
+C:\Users\galsh\OneDrive\שולחן העבודה\גל\לימודים\שנה ב\סמסטר ב\אפליקציות\הגשה\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\delishapplication.RazorAssemblyInfo.cache
+C:\Users\galsh\OneDrive\שולחן העבודה\גל\לימודים\שנה ב\סמסטר ב\אפליקציות\הגשה\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\delishapplication.RazorAssemblyInfo.cs
+C:\Users\galsh\OneDrive\שולחן העבודה\גל\לימודים\שנה ב\סמסטר ב\אפליקציות\הגשה\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\delishapplication.AssemblyInfoInputs.cache
+C:\Users\galsh\OneDrive\שולחן העבודה\גל\לימודים\שנה ב\סמסטר ב\אפליקציות\הגשה\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\delishapplication.AssemblyInfo.cs
+C:\Users\galsh\OneDrive\שולחן העבודה\גל\לימודים\שנה ב\סמסטר ב\אפליקציות\הגשה\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\delishapplication.TagHelpers.input.cache
+C:\Users\galsh\OneDrive\שולחן העבודה\גל\לימודים\שנה ב\סמסטר ב\אפליקציות\הגשה\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\delishapplication.TagHelpers.output.cache
+C:\Users\galsh\OneDrive\שולחן העבודה\גל\לימודים\שנה ב\סמסטר ב\אפליקציות\הגשה\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\delishapplication.RazorCoreGenerate.cache
+C:\Users\galsh\OneDrive\שולחן העבודה\גל\לימודים\שנה ב\סמסטר ב\אפליקציות\הגשה\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Branches\Create.g.cshtml.cs
+C:\Users\galsh\OneDrive\שולחן העבודה\גל\לימודים\שנה ב\סמסטר ב\אפליקציות\הגשה\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Branches\Delete.g.cshtml.cs
+C:\Users\galsh\OneDrive\שולחן העבודה\גל\לימודים\שנה ב\סמסטר ב\אפליקציות\הגשה\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Branches\Details.g.cshtml.cs
+C:\Users\galsh\OneDrive\שולחן העבודה\גל\לימודים\שנה ב\סמסטר ב\אפליקציות\הגשה\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Branches\Edit.g.cshtml.cs
+C:\Users\galsh\OneDrive\שולחן העבודה\גל\לימודים\שנה ב\סמסטר ב\אפליקציות\הגשה\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Branches\Index.g.cshtml.cs
+C:\Users\galsh\OneDrive\שולחן העבודה\גל\לימודים\שנה ב\סמסטר ב\אפליקציות\הגשה\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Chefs\AddDishFromChef.g.cshtml.cs
+C:\Users\galsh\OneDrive\שולחן העבודה\גל\לימודים\שנה ב\סמסטר ב\אפליקציות\הגשה\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Chefs\Create.g.cshtml.cs
+C:\Users\galsh\OneDrive\שולחן העבודה\גל\לימודים\שנה ב\סמסטר ב\אפליקציות\הגשה\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Chefs\CreateAnOrder.g.cshtml.cs
+C:\Users\galsh\OneDrive\שולחן העבודה\גל\לימודים\שנה ב\סמסטר ב\אפליקציות\הגשה\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Chefs\Delete.g.cshtml.cs
+C:\Users\galsh\OneDrive\שולחן העבודה\גל\לימודים\שנה ב\סמסטר ב\אפליקציות\הגשה\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Chefs\Details.g.cshtml.cs
+C:\Users\galsh\OneDrive\שולחן העבודה\גל\לימודים\שנה ב\סמסטר ב\אפליקציות\הגשה\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Chefs\Edit.g.cshtml.cs
+C:\Users\galsh\OneDrive\שולחן העבודה\גל\לימודים\שנה ב\סמסטר ב\אפליקציות\הגשה\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Chefs\Index.g.cshtml.cs
+C:\Users\galsh\OneDrive\שולחן העבודה\גל\לימודים\שנה ב\סמסטר ב\אפליקציות\הגשה\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Chefs\Login.g.cshtml.cs
+C:\Users\galsh\OneDrive\שולחן העבודה\גל\לימודים\שנה ב\סמסטר ב\אפליקציות\הגשה\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Chefs\MyTable.g.cshtml.cs
+C:\Users\galsh\OneDrive\שולחן העבודה\גל\לימודים\שנה ב\סמסטר ב\אפליקציות\הגשה\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Chefs\Register.g.cshtml.cs
+C:\Users\galsh\OneDrive\שולחן העבודה\גל\לימודים\שנה ב\סמסטר ב\אפליקציות\הגשה\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Clients\Create.g.cshtml.cs
+C:\Users\galsh\OneDrive\שולחן העבודה\גל\לימודים\שנה ב\סמסטר ב\אפליקציות\הגשה\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Clients\Delete.g.cshtml.cs
+C:\Users\galsh\OneDrive\שולחן העבודה\גל\לימודים\שנה ב\סמסטר ב\אפליקציות\הגשה\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Clients\Details.g.cshtml.cs
+C:\Users\galsh\OneDrive\שולחן העבודה\גל\לימודים\שנה ב\סמסטר ב\אפליקציות\הגשה\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Clients\Edit.g.cshtml.cs
+C:\Users\galsh\OneDrive\שולחן העבודה\גל\לימודים\שנה ב\סמסטר ב\אפליקציות\הגשה\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Clients\Index.g.cshtml.cs
+C:\Users\galsh\OneDrive\שולחן העבודה\גל\לימודים\שנה ב\סמסטר ב\אפליקציות\הגשה\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Clients\Login.g.cshtml.cs
+C:\Users\galsh\OneDrive\שולחן העבודה\גל\לימודים\שנה ב\סמסטר ב\אפליקציות\הגשה\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Clients\Register.g.cshtml.cs
+C:\Users\galsh\OneDrive\שולחן העבודה\גל\לימודים\שנה ב\סמסטר ב\אפליקציות\הגשה\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Dishes\Create.g.cshtml.cs
+C:\Users\galsh\OneDrive\שולחן העבודה\גל\לימודים\שנה ב\סמסטר ב\אפליקציות\הגשה\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Dishes\Delete.g.cshtml.cs
+C:\Users\galsh\OneDrive\שולחן העבודה\גל\לימודים\שנה ב\סמסטר ב\אפליקציות\הגשה\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Dishes\Details.g.cshtml.cs
+C:\Users\galsh\OneDrive\שולחן העבודה\גל\לימודים\שנה ב\סמסטר ב\אפליקציות\הגשה\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Dishes\Edit.g.cshtml.cs
+C:\Users\galsh\OneDrive\שולחן העבודה\גל\לימודים\שנה ב\סמסטר ב\אפליקציות\הגשה\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Dishes\Index.g.cshtml.cs
+C:\Users\galsh\OneDrive\שולחן העבודה\גל\לימודים\שנה ב\סמסטר ב\אפליקציות\הגשה\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\DishOrders\Create.g.cshtml.cs
+C:\Users\galsh\OneDrive\שולחן העבודה\גל\לימודים\שנה ב\סמסטר ב\אפליקציות\הגשה\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\DishOrders\Delete.g.cshtml.cs
+C:\Users\galsh\OneDrive\שולחן העבודה\גל\לימודים\שנה ב\סמסטר ב\אפליקציות\הגשה\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\DishOrders\Details.g.cshtml.cs
+C:\Users\galsh\OneDrive\שולחן העבודה\גל\לימודים\שנה ב\סמסטר ב\אפליקציות\הגשה\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\DishOrders\Edit.g.cshtml.cs
+C:\Users\galsh\OneDrive\שולחן העבודה\גל\לימודים\שנה ב\סמסטר ב\אפליקציות\הגשה\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\DishOrders\Index.g.cshtml.cs
+C:\Users\galsh\OneDrive\שולחן העבודה\גל\לימודים\שנה ב\סמסטר ב\אפליקציות\הגשה\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+C:\Users\galsh\OneDrive\שולחן העבודה\גל\לימודים\שנה ב\סמסטר ב\אפליקציות\הגשה\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Home\AboutUs.g.cshtml.cs
+C:\Users\galsh\OneDrive\שולחן העבודה\גל\לימודים\שנה ב\סמסטר ב\אפליקציות\הגשה\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Home\ChefGraph.g.cshtml.cs
+C:\Users\galsh\OneDrive\שולחן העבודה\גל\לימודים\שנה ב\סמסטר ב\אפליקציות\הגשה\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+C:\Users\galsh\OneDrive\שולחן העבודה\גל\לימודים\שנה ב\סמסטר ב\אפליקציות\הגשה\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Home\DishGraph.g.cshtml.cs
+C:\Users\galsh\OneDrive\שולחן העבודה\גל\לימודים\שנה ב\סמסטר ב\אפליקציות\הגשה\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Home\FirstPage.g.cshtml.cs
+C:\Users\galsh\OneDrive\שולחן העבודה\גל\לימודים\שנה ב\סמסטר ב\אפליקציות\הגשה\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\galsh\OneDrive\שולחן העבודה\גל\לימודים\שנה ב\סמסטר ב\אפליקציות\הגשה\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
+C:\Users\galsh\OneDrive\שולחן העבודה\גל\לימודים\שנה ב\סמסטר ב\אפליקציות\הגשה\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Orders\copyOrder.g.cshtml.cs
+C:\Users\galsh\OneDrive\שולחן העבודה\גל\לימודים\שנה ב\סמסטר ב\אפליקציות\הגשה\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Orders\Create.g.cshtml.cs
+C:\Users\galsh\OneDrive\שולחן העבודה\גל\לימודים\שנה ב\סמסטר ב\אפליקציות\הגשה\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Orders\CreateFromChef.g.cshtml.cs
+C:\Users\galsh\OneDrive\שולחן העבודה\גל\לימודים\שנה ב\סמסטר ב\אפליקציות\הגשה\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Orders\Delete.g.cshtml.cs
+C:\Users\galsh\OneDrive\שולחן העבודה\גל\לימודים\שנה ב\סמסטר ב\אפליקציות\הגשה\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Orders\Details.g.cshtml.cs
+C:\Users\galsh\OneDrive\שולחן העבודה\גל\לימודים\שנה ב\סמסטר ב\אפליקציות\הגשה\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Orders\Edit.g.cshtml.cs
+C:\Users\galsh\OneDrive\שולחן העבודה\גל\לימודים\שנה ב\סמסטר ב\אפליקציות\הגשה\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Orders\GroupByClient.g.cshtml.cs
+C:\Users\galsh\OneDrive\שולחן העבודה\גל\לימודים\שנה ב\סמסטר ב\אפליקציות\הגשה\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Orders\Index.g.cshtml.cs
+C:\Users\galsh\OneDrive\שולחן העבודה\גל\לימודים\שנה ב\סמסטר ב\אפליקציות\הגשה\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Orders\orderHistory.g.cshtml.cs
+C:\Users\galsh\OneDrive\שולחן העבודה\גל\לימודים\שנה ב\סמסטר ב\אפליקציות\הגשה\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\galsh\OneDrive\שולחן העבודה\גל\לימודים\שנה ב\סמסטר ב\אפליקציות\הגשה\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\galsh\OneDrive\שולחן העבודה\גל\לימודים\שנה ב\סמסטר ב\אפליקציות\הגשה\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\galsh\OneDrive\שולחן העבודה\גל\לימודים\שנה ב\סמסטר ב\אפליקציות\הגשה\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Users_Layout.g.cshtml.cs
+C:\Users\galsh\OneDrive\שולחן העבודה\גל\לימודים\שנה ב\סמסטר ב\אפליקציות\הגשה\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\galsh\OneDrive\שולחן העבודה\גל\לימודים\שנה ב\סמסטר ב\אפליקציות\הגשה\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\galsh\OneDrive\שולחן העבודה\גל\לימודים\שנה ב\סמסטר ב\אפליקציות\הגשה\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\galsh\OneDrive\שולחן העבודה\גל\לימודים\שנה ב\סמסטר ב\אפליקציות\הגשה\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\delishapplication.RazorTargetAssemblyInfo.cache
+C:\Users\galsh\OneDrive\שולחן העבודה\גל\לימודים\שנה ב\סמסטר ב\אפליקציות\הגשה\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\delishapplication.RazorTargetAssemblyInfo.cs
+C:\Users\galsh\OneDrive\שולחן העבודה\גל\לימודים\שנה ב\סמסטר ב\אפליקציות\הגשה\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\delishapplication.Views.pdb
+C:\Users\galsh\OneDrive\שולחן העבודה\גל\לימודים\שנה ב\סמסטר ב\אפליקציות\הגשה\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\delishapplication.dll
+C:\Users\galsh\OneDrive\שולחן העבודה\גל\לימודים\שנה ב\סמסטר ב\אפליקציות\הגשה\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\delishapplication.pdb
+C:\Users\galsh\OneDrive\שולחן העבודה\גל\לימודים\שנה ב\סמסטר ב\אפליקציות\הגשה\delishapplication\delishapplication\obj\Debug\netcoreapp2.1\delishapplication.csproj.CopyComplete

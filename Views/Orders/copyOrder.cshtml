@@ -1,0 +1,50 @@
+﻿@model delishapplication.Models.Order
+
+@{
+    ViewData["Title"] = "copyOrder";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    body {
+        margin: 10px;
+    }
+
+    h2 {
+        text-shadow: 0 0 3px #808080
+    }
+</style> 
+
+<body>
+    <h4> Great! almost done! </h4>
+    <h4> Please enter a date and time for your new order: </h4>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("section").click(function () {
+                alert("Your order was accepted successfully ");
+            });
+        });
+    </script>
+    <div class="row">
+        <div class="col-md-4">
+            <form asp-action="copyOrder">
+
+                <div class="form-group">
+                    <label for="ArrivalDate">ArrivalDate:</label>
+                    <input type="datetime-local" id="ArrivalDate" name="ArrivalDate">
+                </div>
+
+                <div class="form-group">
+                    <section>
+                        <input type="submit" value="Create Order" style="background-color:darksalmon; color:white" class="twitter-share-button" />
+                    </section>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

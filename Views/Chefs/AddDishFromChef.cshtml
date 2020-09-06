@@ -1,0 +1,67 @@
+﻿@model delishapplication.Models.Dish
+
+@{
+    ViewData["Title"] = "AddDishFromChef";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+    <p></p>
+    
+    <style>
+        body {
+            margin: 10px;
+      
+        }
+    </style>
+    <body>
+        <h2>Add A Dish</h2>
+        <br>
+        <div class="row">
+            <div class="col-md-4">
+                <form asp-action="AddDishFromChef">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="form-group" style="margin:20px;">
+                        <label asp-for="DishName" class="control-label"></label>
+                        <input asp-for="DishName" class="form-control" />
+                        <span asp-validation-for="DishName" class="text-danger"></span>
+                    </div>
+                    <div class="form-group" style="margin:10px;">
+                        <label asp-for="Price" class="control-label"></label>
+                        <input asp-for="Price" class="form-control" />
+                        <span asp-validation-for="Price" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <div class="checkbox">
+                            <label>
+                                <input asp-for="Spicy" /> @Html.DisplayNameFor(model => model.Spicy)
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="checkbox">
+                            <label>
+                                <input asp-for="Vegan" /> @Html.DisplayNameFor(model => model.Vegan)
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-group" style="margin:20px;">
+                        <label asp-for="Description" class="control-label"></label>
+                        <input asp-for="Description" class="form-control" />
+                        <span asp-validation-for="Description" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group" style="margin:20px;">
+                        <label asp-for="PhotoLink" class="control-label"></label>
+                        <input asp-for="PhotoLink" class="form-control" />
+                        <span asp-validation-for="PhotoLink" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" style="background-color:darksalmon;color:white"value="Create" class="btn btn-default" />
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        @section Scripts {
+            @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+        }
+    </body>

@@ -1,0 +1,286 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<style>
+    body {
+        margin: 10px;
+    }
+
+</style>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        mybt {
+            padding: 10px 24px
+        }
+
+        video {
+            position: center
+        }
+
+        my-Border {
+            border-radius: 25px
+        }
+
+        body {
+            margin: 0;
+            padding: 32px;
+            /*font-family: "Courier New", Courier, monospace;*/
+        }
+
+        .header {
+            text-align: center;
+            padding: 32px;
+        }
+
+        .row {
+            display: -ms-flexbox; /* IE 10 */
+            display: flex;
+            -ms-flex-wrap: wrap; /* IE 10 */
+            flex-wrap: wrap;
+            padding: 0 4px;
+        }
+
+        /* Create two equal columns that sits next to each other */
+        .column {
+            -ms-flex: 50%; /* IE 10 */
+            flex: 50%;
+            padding: 0 4px;
+        }
+
+            .column img {
+                margin-top: 8px;
+                vertical-align: middle;
+            }
+
+        /* Style the buttons */
+        .btn {
+            border: none;
+            outline: none;
+            padding: 10px 16px;
+            background-color: #f1f1f1;
+            cursor: pointer;
+            /*font-family: "Courier New", Courier, monospace;*/
+            font-size: 18px;
+        }
+
+            .btn:hover {
+                background-color: #ddd;
+            }
+
+            .btn.active {
+                background-color: #666;
+                color: white;
+            }
+
+        .centerVideo {
+            margin: 0 auto;
+            width: 400px;
+        }
+    </style>
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        .container {
+            position: relative;
+        }
+
+        .text-block {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            background-color: white;
+            opacity: 0.8;
+            color: black;
+            font-size: 13px;
+            padding-left: 30px;
+            padding-right: 30px;
+            /*font-family: "Courier New", Courier, monospace;*/
+        }
+    </style>
+
+   
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+
+
+</head>
+<body>
+    
+   <center>
+       <h3>We are Delish.</h3>
+       <h4>We connect starving clients to talented chefs for an amazing culinary experience.</h4>
+       <br>
+   </center>
+
+    <!-- Photo Grid -->
+    <div class="row">
+        <div class="column">
+
+            <h5>&nbsp;&nbsp;&nbsp;&nbsp;Best dish of the week</h5>
+            <div class="container">
+
+                <img id="bestDish" src="@ViewBag.bestDishPhoto" alt="Nature" style="width:100%;">
+                <div class="text-block">
+                    <h4 style="text-align:center">@ViewBag.bestDishName</h4>
+
+
+
+                    <!-- <a href="https://localhost:44382/dishes/Details/"@ViewBag.bestDishID>-->
+                    @ViewBag.bestDishDesc<br>
+
+                    <b>Price:</b> @ViewBag.bestDishPrice&nbsp;₪<br>
+
+                </div>
+                <button style="width:300px; background-color:#f8d1c2; color:saddlebrown" position="absolute"
+                        onclick="window.location.href= '@Url.Action("DishGraph", "Home")';">
+                    TOP 3 dishes! <i class="fa fa-heart"></i>
+                </button>
+
+
+            </div>
+        </div>
+
+        <div class="column">
+
+            <h5>&nbsp;&nbsp;&nbsp;&nbsp;Best chef of the week</h5>
+
+            <div class="container">
+                <div class="my-Border">
+                    <img src="@ViewBag.bestChefPhoto" alt="Nature" style="width:100%;">
+                    <div class="text-block">
+                        <h4 style="text-align:center">@ViewBag.bestChefName</h4>
+
+                        <a href=@ViewBag.bestChefAddress
+                    <b>Cuisine:</b> @ViewBag.bestChefCuisine
+
+                    </a>
+                    </div>
+
+                    <button style="width:300px; background-color:#f8d1c2; color:saddlebrown" position="absolute"
+                            onclick="window.location.href= '@Url.Action("ChefGraph", "Home")';">
+                        TOP 3 chefs! <i class="fa fa-heart"></i>
+                    </button>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <div class="header" id="myHeader">
+        <h1>This Week's specials</h1>
+
+    </div>
+
+  
+    <!-- Photo Grid -->
+    <div class="row">
+        <div class="column">
+
+
+            <div class="container">
+                <img src="~/img/pad thai.jpeg" alt="Nature" style="width:100%;">
+                <div class="text-block">
+                    <h4 style="text-align:center">Pad Thai</h4>
+                    <a href="/Dishes/Details/5010">
+                        Thai dish of stir-fried rice noodles with egg<br>
+                        <b>Made By:</b> Thai House<br>
+                        <b>Price:</b> 50&nbsp;₪
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="container">
+                <img src="https://cdn.pixabay.com/photo/2019/09/06/19/29/rice-4457143_1280.jpg" alt="Nature" style="width:100%;">
+                <div class="text-block">
+                    <h4 style="text-align:center">Mushroom Risotto</h4>
+                    <a href="https://localhost:44382/dishes/Details/6024">
+                        pan-fried rice with cream and mushrooms<br>
+                        <b>Made By:</b> Little Italy <br>
+                        <b>Price:</b> 57&nbsp;₪
+                    </a>
+                </div>
+            </div>
+
+        </div>
+        <div class="column">
+
+
+            <div class="container">
+                <img src="https://cdn.pixabay.com/photo/2017/11/16/18/51/kagyana-2955466_1280.jpg" alt="Nature" style="width:100%;">
+                <div class="text-block">
+                    <h4 style="text-align:center">Shakshuka</h4>
+                    <a href="/Dishes/Details/6014">
+                        Soft boiled eggs with israeli tomato and basil sauce<br>
+                        <b>Made By:</b> Happy Meals<br>
+                        <b>Price:</b> 45&nbsp;₪
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="container">
+                <img src="https://cdn.pixabay.com/photo/2017/11/10/15/04/steak-2936531_1280.jpg" alt="Nature" style="width:100%;">
+                <div class="text-block">
+                    <h4 style="text-align:center">Steak</h4>
+                    <a href="https://localhost:44382/dishes/Details/6027">
+                        400 gr. of tender steak with S&P <br>
+                        <b>Made By:</b> Nice To Meat <br>
+                        <b>Price:</b> 135&nbsp;₪
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+<p></p>
+<p></p>
+<p></p>
+
+<h3 style="text-align:center">So.. How can I make my first order?</h3>
+
+    <video class="centerVideo" controls>
+        <source src="~/img/Video.mp4" type="video/mp4">
+        So.. How can I make my first order?
+    </video>
+
+
+<script>
+    // Get the elements with class="column"
+    var elements = document.getElementsByClassName("column");
+
+    // Declare a loop variable
+    var i;
+
+    // Full-width images
+
+
+
+    // Add active class to the current button (highlight it)
+    var header = document.getElementById("myHeader");
+    var btns = header.getElementsByClassName("btn");
+    for (var i = 0; i < btns.length; i++) {
+        btns[i].addEventListener("click", function () {
+            var current = document.getElementsByClassName("active");
+            current[0].className = current[0].className.replace(" active", "");
+            this.className += " active";
+        });
+    }
+</script>
+
+
+
+

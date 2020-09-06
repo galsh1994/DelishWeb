@@ -1,0 +1,238 @@
+﻿@model delishapplication.Models.Chef
+
+@{
+    ViewData["Title"] = "Details";
+}
+  <style>
+    body {
+    margin: 20px;
+    }
+
+    h1 {
+    text-shadow: 0 0 3px #808080
+    }
+    </style>
+
+  <body>
+      <center>
+          <h1>Our Chefs</h1>
+
+      </center>
+
+      <style>
+          * {
+              box-sizing: border-box;
+          }
+
+          h1 {
+              text-align: center;
+          }
+
+          .outer-grid {
+              display: flex;
+              flex-wrap: wrap;
+              padding: 0 4px;
+          }
+
+          .container {
+              position: relative;
+          }
+          a{
+              text-align:center;
+          }
+          .inner-grid {
+              flex: 25%;
+              max-width: 25%;
+              padding: 0 4px;
+          }
+
+          .text-block {
+              position: absolute;
+              bottom: 10px;
+              right: 10px;
+              background-color: white;
+              opacity: 0.8;
+              color: black;
+              font-size: 12px;
+              padding-left: 10px;
+              padding-right: 5px;
+              /*font-family: "Courier New", Courier, monospace;*/
+          }
+
+          .inner-grid img {
+              margin-top: 8px;
+              width: 100%;
+              padding: 10px;
+          }
+      </style>
+      <center>
+          <h2>  @Html.DisplayFor(model => model.ChefUserName)'s Menu</h2>
+          </center>
+      <div class="outer-grid">
+          @{
+              var dishes = ViewBag.ChefsDishes;
+              foreach (var dish in dishes)
+              {
+                  <div class="inner-grid">
+                      <div class="container">
+                          <img src='@dish.PhotoLink' />
+
+                          <div class="text-block">
+                              <h6 style="text-align:center">@dish.DishName</h6>
+                              @dish.Description<br>
+                              <b>Price:</b> @dish.Price&nbsp;₪ <br>
+                          </div>
+
+                      </div>
+                  </div>
+              }
+          }
+          
+
+          @{
+              var curr = User as System.Security.Claims.ClaimsPrincipal;
+              string hisType = curr.Identities.First().Claims.ElementAt(3).Value;
+              string hisUserName = curr.Identities.First().Claims.ElementAt(0).Value;
+
+          }
+          @if (hisType == "Client")
+          {
+
+              <a asp-action="createanorder" asp-route-id="@Model.ChefID">&nbsp;Make An Order</a>
+          }
+          </div>
+      <br><br >
+              <div>
+                  
+                      <h4>Chef's Details </h4>
+                      <hr />
+                      <dl class="dl-horizontal">
+                          <dt>
+                              @Html.DisplayNameFor(model => model.ChefUserName)
+                          </dt>
+                          <dd>
+                              @Html.DisplayFor(model => model.ChefUserName)
+                          </dd>
+                          <dt>
+                              @Html.DisplayNameFor(model => model.FirstName)
+                          </dt>
+                          <dd>
+                              @Html.DisplayFor(model => model.FirstName)
+                          </dd>
+                          <dt>
+                              @Html.DisplayNameFor(model => model.LastName)
+                          </dt>
+                          <dd>
+                              @Html.DisplayFor(model => model.LastName)
+                          </dd>
+                          <dt>
+                              @Html.DisplayNameFor(model => model.PhoneNumber)
+                          </dt>
+                          <dd>
+                              @Html.DisplayFor(model => model.PhoneNumber)
+                          </dd>
+                          <dt>
+                              @Html.DisplayNameFor(model => model.Email)
+                          </dt>
+                          <dd>
+                              @Html.DisplayFor(model => model.Email)
+                          </dd>
+                        
+                          <dt>
+                              @Html.DisplayNameFor(model => model.Experience)
+                          </dt>
+                          <dd>
+                              @Html.DisplayFor(model => model.Experience)
+                          </dd>
+                          <dt>
+                              @Html.DisplayNameFor(model => model.City)
+                          </dt>
+                          <dd>
+                              @Html.DisplayFor(model => model.City)
+                          </dd>
+                          <dt>
+                              @Html.DisplayNameFor(model => model.Kosher)
+                          </dt>
+                          <dd>
+                              @Html.DisplayFor(model => model.Kosher)
+                          </dd>
+                          <dt>
+                              @Html.DisplayNameFor(model => model.Cuisine)
+                          </dt>
+                          <dd>
+                              @Html.DisplayFor(model => model.Cuisine)
+                          </dd>
+
+                      </dl>
+
+                 
+              </div>
+
+              @if (hisType == "Admin" || hisType == "Chef")
+              {
+                  <br>
+      <h4> Dishes Information</h4>
+                  <table class="table">
+                      <thead>
+                          <tr>
+                              <th>
+                                  @Html.DisplayNameFor(model => model.MyDishes.First().DishName)
+                              </th>
+                              <th>
+                                  @Html.DisplayNameFor(model => model.MyDishes.First().Price)
+                              </th>
+                              <th>
+                                  @Html.DisplayNameFor(model => model.MyDishes.First().Spicy)
+                              </th>
+                              <th>
+                                  @Html.DisplayNameFor(model => model.MyDishes.First().Vegan)
+                              </th>
+                              <th>
+                                  @Html.DisplayNameFor(model => model.MyDishes.First().Description)
+                              </th>
+                              <th></th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          @foreach (var item in Model.MyDishes)
+                          {
+                              <tr>
+                                  <td>
+                                      @Html.DisplayFor(modelItem => item.DishName)
+                                  </td>
+                                  <td>
+                                      @Html.DisplayFor(modelItem => item.Price)
+                                  </td>
+                                  <td>
+                                      @Html.DisplayFor(modelItem => item.Spicy)
+                                  </td>
+                                  <td>
+                                      @Html.DisplayFor(modelItem => item.Vegan)
+                                  </td>
+                                  <td>
+                                      @Html.DisplayFor(modelItem => item.Description)
+                                  </td>
+                                  <td>
+
+                                      @if (hisType == "Admin" || hisType == "Chef" && hisUserName == Model.ChefUserName)
+                                      {
+
+                                          <a href="/Dishes/Edit/@item.DishID">Edit</a>
+                                          <a href="/Dishes/Delete/@item.DishID">Delete</a>
+                                          <a href="/Dishes/Details/@item.DishID">Details</a>
+                                      }
+
+                                  </td>
+                              </tr>
+                          }
+                      </tbody>
+                  </table>
+              }
+
+
+
+              <div>
+            
+                  <a asp-action="Index">Back to Chefs list</a>
+              </div>
+</body>

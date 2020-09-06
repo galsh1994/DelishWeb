@@ -1,0 +1,46 @@
+﻿@model delishapplication.Models.Chef
+
+@{
+    ViewData["Title"] = "CreateAnOrder";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<style>
+    body {
+        margin: 10px;
+    }
+</style>
+<body>
+  
+    <div class="row">
+        <div class="col-md-4">
+            <form asp-action="CreateAnOrder">
+                <h4>Create An Order</h4>
+                <br>
+                <div>
+                    <label for="ArrivalDate">Arrival Date:</label>
+                    <input type="datetime-local" id="ArrivalDate" name="ArrivalDate">
+                </div>
+                
+                <br>
+                
+                <div class="form-group">
+                    <label for="DishID" class="control-label">Choose Your Dishes</label>
+                    <select name="DishID" class="form-control" asp-items="@ViewBag.mydishes" multiple></select>
+                </div>
+                <br>
+                <div class="form-group">
+                    <input type="submit" style="background-color:darksalmon;color:white"value="Create An Order" class="twitter-share-button" />
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+    @section Scripts {
+        @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    }
+
+</body>

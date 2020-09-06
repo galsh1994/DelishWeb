@@ -1,0 +1,70 @@
+﻿@model IEnumerable<delishapplication.Models.Branch>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<p></p>
+<p></p>
+<p></p>
+<h2>Branches:</h2>
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Alt)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Lng)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.phoneNumber)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Alt)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Lng)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.phoneNumber)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.BranchID">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.BranchID">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.BranchID">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<h3>Search Branch by city</h3>
+<form asp-action="Search">
+
+    <a class="form-group" style="margin:auto;max-width:400px">
+        <a class="control-label" </a>
+        <input type="text" placeholder="Search by city:" name="BranchName">
+    </a>
+
+    <div class="form-group">
+        <input type="submit" value="Search" style="border:thin;border-color:black" class="control-label" />
+    </div>
+</form>

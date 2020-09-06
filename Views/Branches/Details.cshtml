@@ -1,0 +1,43 @@
+﻿@model delishapplication.Models.Branch
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Branch</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Alt)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Alt)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Lng)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Lng)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.phoneNumber)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.phoneNumber)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.BranchID">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

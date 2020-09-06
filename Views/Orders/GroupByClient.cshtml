@@ -1,0 +1,54 @@
+﻿@model IEnumerable<delishapplication.Models.Order>
+
+@{
+    ViewData["Title"] = "GroupByClient";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    body {
+        margin: 10px;
+    }
+</style>
+<body>
+    <h3> Orders Grouped by clients </h3>
+    <br />
+    <table class="joinTable">
+        <tr>
+            <th> Oreder ID</th>
+            <th> Client name</th>
+            <th> Arrival Date</th>
+            <th> Total Price </th>
+        </tr>
+        @{
+
+            var groupbyList = ViewBag.groupBy;
+            foreach (var list in groupbyList)
+            {
+                var group = list.GetEnumerator();
+                do
+                {
+                    Order current = group.Current;
+                    if (current == null) { continue; }
+                    <tr>
+                        <td>@current.OrderID</td>
+                        <td>@current.ClientUserName</td>
+                        <td>@current.ArrivalDate</td>
+                        <td>@current.TotalPrice</td>
+
+                    </tr>
+                } while (group.MoveNext());
+
+                <tr>
+                    <td>---</td>
+                    <td>---</td>
+                    <td>---</td>
+                    <td>---</td>
+                </tr>
+            }
+        }
+    </table>
+    </center>
+    <br />
+    <br />
+    </body>
+

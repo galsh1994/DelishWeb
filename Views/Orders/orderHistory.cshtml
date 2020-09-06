@@ -1,0 +1,59 @@
+﻿@model IEnumerable<delishapplication.Models.Order>
+
+@{
+    ViewData["Title"] = "orderHistory";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    body {
+        margin: 10px;
+    }
+</style>
+<body>
+    <h2> Order History</h2>
+    <center>
+
+        <table class="table">
+            <thead>
+                <tr>
+                  
+                    <th>
+                        @Html.DisplayNameFor(model => model.OrderDate)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.ArrivalDate)
+                    </th>
+                  
+                    <th>
+                        @Html.DisplayNameFor(model => model.TotalPrice)
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+
+                        <td>
+                            @Html.DisplayFor(modelItem => item.OrderDate)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.ArrivalDate)
+                        </td>
+
+                        <td>
+                            @Html.DisplayFor(modelItem => item.TotalPrice)
+                        </td>
+
+                    </tr>
+                }
+            </tbody>
+        </table>
+        <h4>You have an option to order the same order like your previous one in a click!</h4>
+        <button style="width:200px; background-color:darksalmon; color:white" onclick="window.location.href= '@Url.Action("copyOrder", "Orders")';">re-Order</button>
+    </center>
+</body>
+
+
+

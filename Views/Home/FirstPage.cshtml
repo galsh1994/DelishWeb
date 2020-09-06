@@ -1,0 +1,124 @@
+﻿@{
+
+    Layout = "";
+
+}
+<h2>@ViewData["Title"]</h2>
+<h3>@ViewData["Message"]</h3>
+ 
+
+<style>
+    body, html {
+        height: 100%;
+        margin: 0;
+    }
+
+.bgimg { background-image: url(/img/tomato-back2.jpg); height: 100%; background-repeat: no-repeat; 
+         background-position: center; background-size: cover; opacity: 0.9; position: relative; background-color: lightcoral; 
+         color: white; font-family: 'Segoe Script'; font-size: 25px; }
+
+
+    .bottomleft {
+        position: absolute;
+        bottom: 0;
+        left: 16px;
+    }
+
+    .middle {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    hr {
+        margin: auto;
+        width: 40%;
+    }
+
+    h1 {
+        color: black;
+        -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: black;
+    }
+
+    .button {
+        background-color: blanchedalmond;
+        font-family: 'Segoe Script';
+        /*font-family: "Courier New", Courier, monospace;*/
+        border: black;
+        color: black;
+        font-weight: bold;
+        padding: 15px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 15px;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
+
+    .button4 {
+        border-radius: 12px;
+    }
+</style>
+<body>
+
+    <div class="bgimg">
+
+        <div class="middle">
+            <h1>Welcome To Delish! </h1>
+            <p>Please log in or register to enter</p>
+            <hr>
+
+            <div class="form-group">
+
+                <input type="button" value="Log in as chef" class="button button4" onclick='redirectLoginChef()' />
+                <script>
+        function redirectLoginChef() {
+            window.location.href= '@Url.Action("Login","Chefs")';
+        }
+                </script>
+            </div>
+            
+            <div class="form-group">
+
+                <input type="button" value="Register as chef" class="button button4" onclick='redirectRegisterChef()' />
+                <script>
+        function redirectRegisterChef() {
+            window.location.href= '@Url.Action("Register","Chefs")';
+        }
+                </script>
+            </div>
+            
+            <div class="form-group">
+
+                <input type="button" value="Log in as client" class="button button4" onclick='redirectLoginClient()' />
+                <script>
+        function redirectLoginClient() {
+            window.location.href= '@Url.Action("Login", "Clients")';
+        }
+                </script>
+            </div>
+            
+            <div class="form-group">
+
+                <input type="button" value="Register as client" class="button button4" onclick='redirectRegisterClient()' />
+                <script>
+        function redirectRegisterClient() {
+            window.location.href= '@Url.Action("Register","Clients")';
+        }
+                </script>
+            </div>
+        </div>
+        
+        <!--<img src="~/img/logo.jpeg" width="50" height="50"/>-->
+
+    </div>
+
+</body>
+
+
+

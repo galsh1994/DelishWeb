@@ -1,0 +1,95 @@
+﻿@model IEnumerable<delishapplication.Models.Order>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<style>
+    body {
+        margin: 10px;
+    }
+</style>
+<body>
+    <center>
+    <h2>Orders:</h2>
+
+    <table class="table">
+        <thead>
+            <tr>
+               
+                <th>
+                    @Html.DisplayNameFor(model => model.OrderDate)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.ArrivalDate)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.ClientUserName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.TotalPrice)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                  
+                    <td>
+                        @Html.DisplayFor(modelItem => item.OrderDate)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ArrivalDate)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ClientUserName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.TotalPrice)
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.OrderID">Edit</a> |
+                        <a asp-action="Details" asp-route-id="@item.OrderID">Details</a> |
+                        <a asp-action="Delete" asp-route-id="@item.OrderID">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+        </center>
+
+    <h3>Search a order by ID</h3>
+    <form asp-action="Search">
+
+        <a class="form-group" style="margin:auto;max-width:400px">
+            <a class="control-label" </a>
+            <input type="number" placeholder="Search by ID:" name="OrderID">
+        </a>
+        <br>
+        <div class="form-group">
+            <input type="submit" value="Search" style="border:thin;border-color:black;background-color:darksalmon;color:white" class="control-label" />
+        </div>
+    </form>
+
+
+    <h3>Search an order by client's city</h3>
+    <form asp-action="SearchByCity">
+
+        <a class="form-group" style="margin:auto;max-width:400px">
+            <a class="control-label" </a>
+            <input type="text" placeholder="Search by city:" name="ClientCity">
+        </a>
+        <br>
+        <div class="form-group">
+            <input type="submit" value="Search" style="border:thin;background-color:darksalmon;color:white";border-color:black" class="control-label" />
+        </div>
+    </form>
+
+    <button style="width:250px; background-color:darksalmon; color:white" 
+            onclick="window.location.href= '@Url.Action("GroupByClient", "Orders")';">Group by client</button>
+
+  
+</body>
+

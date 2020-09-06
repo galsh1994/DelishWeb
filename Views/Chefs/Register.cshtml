@@ -1,0 +1,71 @@
+﻿@model delishapplication.Models.Chef
+
+@{
+    Layout = "_Users_Layout";
+    ViewData["Title"] = "Index";
+}
+<div class="row">
+    <div class="col-lg-5 d-none d-lg-block bg-register-image"></div>
+    <div class="col-lg-7">
+        <div class="p-5">
+            <div class="text-center">
+                <h1 class="h4 text-gray-900 mb-4">Create an Account!</h1>
+            </div>
+            <form class="user" asp-action="Register">
+                <div class="form-group row">
+                    <div class="col-sm-6 mb-3 mb-sm-0">
+                        <input type="text" class="form-control form-control-user" id="exampleFirstName" placeholder="ChefUserName" name="ChefUserName">
+                    </div>
+                    <div class="col-sm-6 mb-3 mb-sm-0">
+                        <input type="text" class="form-control form-control-user" id="exampleFirstName" placeholder="First Name" name="FirstName">
+                    </div>
+                    <div class="col-sm-6">
+                        <input type="text" class="form-control form-control-user" id="exampleLastName" placeholder="Last Name" name="LastName">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control form-control-user" id="exampleInputEmail" placeholder="Email Address" name="Email">
+                </div>
+                <div class="form-group row">
+                    <div class="col-sm-6 mb-3 mb-sm-0">
+                        <input type="password" class="form-control form-control-user" id="exampleInputPassword" placeholder="Password" name="Password">
+                    </div>
+                    <div class="col-sm-6 mb-3 mb-sm-0">
+                        <input type="text" class="form-control form-control-user" id="exampleInputPassword" placeholder="Phone Number" name="PhoneNumber">
+                    </div>
+                    <div class="col-sm-6 mb-3 mb-sm-0">
+                        <input type="text" class="form-control form-control-user" id="exampleInputPassword" placeholder="PhotoLink" name="PhotoLink">
+                    </div>
+                    <div class="col-sm-6 mb-3 mb-sm-0">
+                        <input type="text" class="form-control form-control-user" id="exampleInputPassword" placeholder="Experience" name="Experience">
+                    </div>
+                    <div class="col-sm-6 mb-3 mb-sm-0">
+                        <input type="text" class="form-control form-control-user" id="exampleInputPassword" placeholder="City" name="City">
+                    </div>
+                    <div class="col-sm-6 mb-3 mb-sm-0">
+                        <input type="text" class="form-control form-control-user" id="exampleInputPassword" placeholder="Cuisine" name="Cuisine">
+                    </div>
+
+
+                    <div class="form-group">
+                        <div class="checkbox">
+                            <label>
+                                <input asp-for="Kosher" /> @Html.DisplayNameFor(model => model.Kosher)
+                            </label>
+                        </div>
+                    </div>
+
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-user btn-block">
+                    Register Account
+                </button>
+            </form>
+            <hr>
+        
+            <div class="text-center">
+                <a class="small" asp-action="Login">Already have an account? Login!</a>
+            </div>
+        </div>
+    </div>
+</div>

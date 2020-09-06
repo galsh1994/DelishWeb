@@ -1,0 +1,59 @@
+﻿@model delishapplication.Models.Dish
+@using delishapplication.Models
+@using delishapplication.Data
+
+
+@{
+    ViewData["Title"] = "Details";
+}
+<style>
+    body {
+        margin: 10px;
+    }
+</style>
+<body>
+    <h2>Details</h2>
+
+    <div>
+        <h4>Dish</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.DishName)
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.DishName)
+            </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.Price)
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.Price)
+            </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.Spicy)
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.Spicy)
+            </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.Vegan)
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.Vegan)
+            </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.Description)
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.Description)
+            </dd>
+            <dd>
+                <p><b>Photo:</b></p>
+                <img src="@Url.Content(Model.PhotoLink)" height="200" width="300" />
+            </dd>
+        </dl>
+    </div>
+  
+    </body>
+
